@@ -23,7 +23,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]mongodb
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://nagardevesh2004:D5ILZ4RAldMuzQsS@deveshngr.cd17t.mongodb.net/?retryWrites=true&w=majority&appName=Deveshngr")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://adultverse04:adultverse04@adultverse04.wpltj.mongodb.net/?retryWrites=true&w=majority&appName=adultverse04")
 DB_NAME = os.environ.get("DATABASE_NAME", "explore")
 
 #Shortner (token system) 
