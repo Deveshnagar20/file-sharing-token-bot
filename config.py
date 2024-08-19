@@ -3,27 +3,27 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7024026336:AAFBA8CD6-Cf57CWP_qfRdf98pAStXlVohQ")
 
 #Your API ID & API HASH from my.telegram.org [https://youtu.be/gZQJ-yTMkEo?si=H4NlUUgjsIc5btzH]
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "27868202"))
+APP_ID = int(os.environ.get("APP_ID", "28151444"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "bf6d423ddc4a4999f09750872bdc2497")
+API_HASH = os.environ.get("API_HASH", "85ef94c1c03dd427c4acb85bf66e4f6d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002234939783"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002182776865"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6939667447"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7125732234"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-#Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://adultverse04:adultverse04@adultverse04.wpltj.mongodb.net/?retryWrites=true&w=majority&appName=adultverse04")
+#Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]mongodb
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://nagardevesh2004:D5ILZ4RAldMuzQsS@deveshngr.cd17t.mongodb.net/?retryWrites=true&w=majority&appName=Deveshngr")
 DB_NAME = os.environ.get("DATABASE_NAME", "explore")
 
 #Shortner (token system) 
@@ -37,7 +37,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/Ultroid_Official/18") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001567807935"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -45,7 +45,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6939667447").split()):
+    for x in (os.environ.get("ADMINS", "5681392434 7125732234").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -66,7 +66,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6939667447)
+ADMINS.append(7125732234)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
