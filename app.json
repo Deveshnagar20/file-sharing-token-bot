@@ -24,7 +24,7 @@
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url https://youtu.be/qFB0cFqiyOM?si=9rfd9AawasXLp_oE",
-      "value": "mongodb+srv://nagardevesh2004:D5ILZ4RAldMuzQsS@deveshngr.cd17t.mongodb.net/?retryWrites=true&w=majority&appName=Deveshngr"
+      "value": "mongodb+srv://adultverse04:adultverse04@adultverse04.wpltj.mongodb.net/?retryWrites=true&w=majority&appName=adultverse04"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
